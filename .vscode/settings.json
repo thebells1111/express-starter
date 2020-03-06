@@ -1,0 +1,112 @@
+//prettier-ignore
+{
+  "workbench.statusBar.visible": true,
+  "[ahk]": {},
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1a1a1a",
+    "statusBar.foreground": "#eeeeee",
+    "statusBar.noFolderBackground": "#1a1a1a",
+    "statusBar.noFolderForeground": "#eeeeee",
+    "titleBar.activeBackground": "#1a1a1a",
+    "titleBar.activeForeground": "#eeeeee"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 80,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "browser-preview.startUrl": "localhost:5000/",
+  "browser-preview.verbose": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.colorTheme": "GitHub Plus",
+  "window.zoomLevel": 1,
+  "files.associations": {
+    "*.svelte": "html"
+  },
+  "emmet.includeLanguages": {
+    "svelte": "html"
+  },
+  "svelte-intellisense.trace.server": "messages",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "editor.multiCursorModifier": "alt",
+  "vim.changeWordIncludesWhitespace": true,
+  "vim.sneak": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["a", "a"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    },
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-x>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+  },
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": [","],
+      "after": ["j"]
+    },
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["k"],
+      "after": ["i"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["w"],
+      "after": ["W"]
+    },
+    {
+      "before": ["W"],
+      "after": ["w"]
+    }
+  ],
+  "vim.whichwrap": "h,l"
+}
+}
